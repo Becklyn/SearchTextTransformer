@@ -1,0 +1,10 @@
+--HTML--
+<p>Block 1</p>
+<p>Block 2</p>
+<p>Block 3</p>
+--EXPECT--
+Block 1
+
+Block 2
+
+Block 3

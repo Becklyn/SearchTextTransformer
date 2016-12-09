@@ -1,0 +1,6 @@
+--HTML--
+<b>Inline 1</b>
+<b>Inline 2</b>
+<b>Inline 3</b>
+--EXPECT--
+Inline 1 Inline 2 Inline 3

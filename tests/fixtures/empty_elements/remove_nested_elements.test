@@ -1,0 +1,8 @@
+--HTML--
+<p>Before</p>
+<p><img></p>
+<p>After</p>
+--EXPECT--
+Before
+
+After

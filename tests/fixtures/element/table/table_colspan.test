@@ -1,0 +1,33 @@
+--HTML--
+<p>Before</p>
+<table>
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Value 1.1</th>
+            <td colspan="2">Value 1.2</td>
+        </tr>
+        <tr>
+            <th>Value 2.1</th>
+            <td>Value 2.2</td>
+            <td>Value 2.3</td>
+        </tr>
+    </tbody>
+</table>
+<p>After</p>
+--EXPECT--
+Before
+
+Column 1 Column 2 Column 3
+
+Value 1.1 Value 1.2
+
+Value 2.1 Value 2.2 Value 2.3
+
+After

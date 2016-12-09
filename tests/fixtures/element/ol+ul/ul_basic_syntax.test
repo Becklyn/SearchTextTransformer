@@ -1,0 +1,18 @@
+--HTML--
+<p>Before</p>
+<ul>
+    <li>Text 1</li>
+    <li>Text 2</li>
+    <li>Text 3</li>
+</ul>
+<p>After</p>
+--EXPECT--
+Before
+
+Text 1
+
+Text 2
+
+Text 3
+
+After

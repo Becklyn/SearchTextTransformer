@@ -1,0 +1,4 @@
+--HTML--
+<p>First     Text</p>
+--EXPECT--
+First Text

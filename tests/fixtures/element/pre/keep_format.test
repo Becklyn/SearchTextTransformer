@@ -1,0 +1,16 @@
+--TEST--
+Tests that a <pre> elements keeps its formatting.
+Multiple spaces are collapsed, though.
+--HTML--
+<pre>This is
+  a      multi-
+
+      line
+text
+</pre>
+--EXPECT--
+This is
+ a multi-
+
+ line
+text

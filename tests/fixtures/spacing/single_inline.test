@@ -1,0 +1,4 @@
+--HTML--
+<b>Test</b>
+--EXPECT--
+Test

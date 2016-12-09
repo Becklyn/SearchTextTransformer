@@ -1,0 +1,9 @@
+--HTML--
+<b>Text 1</b>
+
+
+
+
+<b>Text 2</b>
+--EXPECT--
+Text 1 Text 2

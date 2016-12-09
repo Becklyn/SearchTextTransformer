@@ -1,0 +1,21 @@
+--HTML--
+<div>Before</div>
+<div><div><div><div><div><div>Deeply nested</div></div></div></div></div></div>
+<div>Middle</div>
+<div>
+    <div>Nested sibling 1</div>
+    <div>Nested sibling 2</div>
+</div>
+<div>After</div>
+--EXPECT--
+Before
+
+Deeply nested
+
+Middle
+
+Nested sibling 1
+
+Nested sibling 2
+
+After
