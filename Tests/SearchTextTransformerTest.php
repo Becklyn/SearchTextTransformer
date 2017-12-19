@@ -1,13 +1,14 @@
 <?php
 
-namespace Becklyn\tests;
+namespace Tests\Becklyn\SearchText;
 
 use Becklyn\SearchText\SearchTextTransformer;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
 
 
-class SearchTextTransformerTest extends \PHPUnit_Framework_TestCase
+class SearchTextTransformerTest extends TestCase
 {
     /**
      * @var SearchTextTransformer

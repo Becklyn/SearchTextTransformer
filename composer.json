@@ -15,11 +15,15 @@
         "php": "^7.0.7"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.0",
+        "phpunit/phpunit": "^6.0",
         "symfony/finder": "^2.8 | ^3.0",
-        "symfony/filesystem": "^2.8 | ^3.0"
+        "symfony/filesystem": "^2.8 | ^3.0",
+        "symfony/phpunit-bridge": "^3.4|^4.0"
     },
     "autoload": {
         "psr-4": { "Becklyn\\SearchText\\": "" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\Becklyn\\SearchText\\": "Tests/" }
     }
 }
